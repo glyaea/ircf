@@ -1,0 +1,12 @@
+{
+	"action": { "default_popup": "popup.html" },
+	"background": { "service_worker": "badge.js" },
+	"content_scripts": [{
+		"js": ["main.js"],
+		"matches": ["https://www.instagram.com/reels/*"]
+	}],
+	"host_permissions": ["https://api.cloudflare.com/*"],
+	"manifest_version": 3,
+	"name": "Instagram Reels Content Filter",
+	"version": "1"
+}
