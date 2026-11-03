@@ -15,7 +15,7 @@ chrome.runtime.onMessage.addListener((message, sender, reply) => {
 		running = true;
 		scan(message);
 	}
-	reply({ hidden, running, scanned });
+	reply({ hidden, scanned });
 });
 
 async function scan(lookahead) {

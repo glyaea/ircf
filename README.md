@@ -1,18 +1,19 @@
-# Instagram Reels Content Filter
+# Instagram Reels Content Filter (IRCF)
 
-A Chromium extension that uses Clef-Omni to filter Instagram Reels based on the
-content you describe. Perfect for blocking spoilers!
+A Chromium extension that uses Clef-Omni to filter
+[Instagram Reels](https://instagram.com/reels)
+in real time, based on content you describe ahead of time.
 
 ## Installation
 
-1. Clone this repository.
-2. Create `env.json` containing:
+1. Get an account API token from Cloudflare.
+2. Clone this repository.
+3. Create `env.json` containing:
 
    - `CLOUDFLARE_ACCOUNT_ID`
    - `CLOUDFLARE_ACCOUNT_API_TOKEN`
 
-3. Tweak `config.json` as desired.
-4. Visit `chrome://extensions`.
-5. Click button "Load unpacked".
-6. Select cloned repository.
-7. Visit [https://instagram.com/reels](https://instagram.com/reels).
+4. Tweak `config.json` as desired.
+5. Visit `chrome://extensions`.
+6. Click button "Load unpacked".
+7. Select cloned repository.
