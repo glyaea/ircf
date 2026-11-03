@@ -1,4 +1,4 @@
-# Instagram Reels Content Filter (IRCF)
+# Instagram Reels Content Filter
 
 A Chromium extension that uses Clef-Omni to filter
 [Instagram Reels](https://instagram.com/reels)
